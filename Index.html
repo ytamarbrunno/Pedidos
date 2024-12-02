@@ -10,11 +10,15 @@
 
     <div class="menu-container">
         <h2>Escolha seu Prato</h2>
-        <button class="menu-item" onclick="showRecheios('cuscuz')">Cuscuz</button>
-        <button class="menu-item" onclick="showRecheios('tapioca')">Tapioca</button>
-        <button class="menu-item" onclick="showRecheios('omelete')">Omelete</button>
 
-        <div id="recheios-container" class="menu-item"></div>
+        <!-- Botões de menu para Sanduíches e Pratos -->
+        <button class="menu-item" onclick="showOptions('sandwich')">Sanduíches</button>
+        <button class="menu-item" onclick="showOptions('tapioca')">Tapioca</button>
+        <button class="menu-item" onclick="showOptions('cuscuz')">Cuscuz</button>
+        <button class="menu-item" onclick="showOptions('omelete')">Omelete</button>
+
+        <!-- Container onde as opções de recheios e preços serão mostradas -->
+        <div id="options-container" class="menu-item"></div>
         <h3 id="total-price">Total: R$ 0,00</h3>
         <button id="print-receipt" onclick="printReceipt()">Imprimir Recibo</button>
     </div>
@@ -22,4 +26,4 @@
     <script src="script.js"></script>
 
 </body>
-</html>
+    </html>
