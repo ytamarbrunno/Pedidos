@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+.menu-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2, h3 {
+    text-align: center;
+}
+
+.menu-item {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    margin: 5px 0;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.menu-item:hover {
+    background-color: #45a049;
+}
+
+.recheio-list {
+    margin-top: 20px;
+}
+
+.recheio-item {
+    display: flex;
+    align-items: center;
+    margin: 8px 0;
+}
+
+.recheio-item input {
+    margin-right: 10px;
+}
+
+#total-price {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#print-receipt {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #FF9800;
+    color: white;
+    border: none;
+    margin-top: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#print-receipt:hover {
+    background-color: #FF5722;
+}
